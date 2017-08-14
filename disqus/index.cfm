@@ -6,8 +6,8 @@
 
 
 var disqus_config = function () {
-this.page.url = 'http://#$.siteconfig('domain')##$.createHref(filename='test-page')#';  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = '#$.content('contentid')#'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+	this.page.url = 'http://#$.siteconfig('domain')##$.createHref(filename=$.content('filename'))#';
+	this.page.identifier = '#$.content('contentid')#';
 };
 
 (function() { // DON'T EDIT BELOW THIS LINE
