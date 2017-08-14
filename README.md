@@ -12,10 +12,13 @@ Mura 7 Display Objects for Disqus.  Put Disqus comments on any page on your site
 3. Inline edit the page and drag and drop the Disqus to Display Region
 4. Enter the Shortname and Publish the Page
 
-## Original ideas come from:
+## Original ideas come from
 [Stephen J. Withington, Jr.](https://github.com/stevewithington)
 [mura7-display-objects](https://github.com/stevewithington/mura7-display-objects)
 These files were used in the **Intro To Mura 7 Display Objects** presentation at [MuraCon 2017](http://www.muracon.com). Please also see http://docs.getmura.com/v7/videos/webinars/super-fast-app-dev-with-mura-7/ for a presentation with more information and code samples.
+
+## Notes
+Because Disqus expects a fully qualified domain, it is not recommended to be used on intranet sites or sites without a fully qualified domain. Disqus builds several links and other items from the settings and their settings and they don't allow something like https://myintranetsite
 
 ## License
 Copyright 2017 Stephen Stick Hazen (and others -- see individual files for additional copyright holders).
